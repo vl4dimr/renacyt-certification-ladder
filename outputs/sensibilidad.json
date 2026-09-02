@@ -1,0 +1,94 @@
+{
+  "base": {
+    "etiqueta": "todos (n=10,366)",
+    "n": 10366,
+    "rho_nivel_obras": -0.326,
+    "rho_nivel_citas": -0.319,
+    "rho_nivel_citas_obra": -0.172,
+    "rho_nivel_pct_obras_campo": -0.327,
+    "auc_extremos": 0.798,
+    "pct_distinguido_bajo_mediana_vii": 18.5,
+    "auc_adyacente_media": 0.568,
+    "auc_adyacente_max": 0.615,
+    "pct_mujeres_por_nivel": {
+      "Distinguido": 15.3,
+      "I": 22.4,
+      "II": 23.0,
+      "III": 28.3,
+      "IV": 30.8,
+      "V": 32.8,
+      "VI": 35.6,
+      "VII": 35.5
+    }
+  },
+  "activos": {
+    "etiqueta": "solo Activo",
+    "n": 8035,
+    "rho_nivel_obras": -0.422,
+    "rho_nivel_citas": -0.406,
+    "rho_nivel_citas_obra": -0.214,
+    "rho_nivel_pct_obras_campo": -0.424,
+    "auc_extremos": 0.79,
+    "pct_distinguido_bajo_mediana_vii": 21.0,
+    "auc_adyacente_media": 0.579,
+    "auc_adyacente_max": 0.634,
+    "pct_mujeres_por_nivel": {
+      "Distinguido": 15.3,
+      "I": 23.9,
+      "II": 22.4,
+      "III": 28.5,
+      "IV": 29.6,
+      "V": 32.6,
+      "VI": 35.0,
+      "VII": 35.6
+    }
+  },
+  "reglamento_2021": {
+    "etiqueta": "solo Reglamento 2021",
+    "n": 8045,
+    "rho_nivel_obras": -0.422,
+    "rho_nivel_citas": -0.406,
+    "rho_nivel_citas_obra": -0.214,
+    "rho_nivel_pct_obras_campo": -0.425,
+    "auc_extremos": 0.79,
+    "pct_distinguido_bajo_mediana_vii": 21.0,
+    "auc_adyacente_media": 0.579,
+    "auc_adyacente_max": 0.635,
+    "pct_mujeres_por_nivel": {
+      "Distinguido": 15.3,
+      "I": 23.9,
+      "II": 22.4,
+      "III": 28.5,
+      "IV": 29.6,
+      "V": 32.6,
+      "VI": 35.0,
+      "VII": 35.6
+    }
+  },
+  "cohorte_joven": {
+    "etiqueta": "primer_anio >= 2018 (carrera en ventana)",
+    "n": 5750,
+    "rho_nivel_obras": -0.184,
+    "rho_nivel_citas": -0.154,
+    "rho_nivel_citas_obra": -0.049,
+    "rho_nivel_pct_obras_campo": -0.189,
+    "auc_extremos": 0.582,
+    "pct_distinguido_bajo_mediana_vii": 41.5,
+    "auc_adyacente_media": 0.523,
+    "auc_adyacente_max": 0.608,
+    "pct_mujeres_por_nivel": {
+      "Distinguido": 9.4,
+      "I": 17.0,
+      "II": 18.6,
+      "III": 27.1,
+      "IV": 28.4,
+      "V": 33.1,
+      "VI": 33.9,
+      "VII": 36.6
+    }
+  },
+  "lag_calificacion": {
+    "rho_nivel_lag": -0.229,
+    "lag_mediana_global": 4.0
+  }
+}

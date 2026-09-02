@@ -1,0 +1,25 @@
+{
+  "n_2021": 8045,
+  "pct_mujeres_2021": 33.0,
+  "auc_extremos_2021": 0.79,
+  "aucs_adyacentes": {
+    "VI vs VII": 0.635,
+    "V vs VI": 0.63,
+    "IV vs V": 0.566,
+    "III vs IV": 0.578,
+    "II vs III": 0.546,
+    "I vs II": 0.528,
+    "Dist. vs I": 0.57
+  },
+  "medianas_joven": {
+    "VII": 6.0,
+    "VI": 9.0,
+    "V": 13.0,
+    "IV": 14.0,
+    "III": 16.0,
+    "II": 7.0,
+    "I": 12.0,
+    "Distinguido": 8.0
+  },
+  "n_joven": 4980
+}

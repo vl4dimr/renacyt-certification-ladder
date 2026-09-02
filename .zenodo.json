@@ -1,0 +1,23 @@
+{
+  "title": "Replication package - The certification ladder: what researcher-ranking levels measure, and what they miss",
+  "upload_type": "dataset",
+  "description": "Rung-by-rung audit of Peru's RENACYT researcher-ranking levels against the open bibliographic record: 10,455 certified researchers linked to their OpenAlex production (2015-2026), per-level medians, adjacent-rung AUCs, seniority-controlled partials, per-field associations, gender composition by rank, and a recent-entrant cohort analysis. Companion to a manuscript submitted to Research Evaluation.",
+  "creators": [
+    {
+      "name": "Mamani Calisaya, Milton Vladimir",
+      "affiliation": "Universidad Nacional del Altiplano, Puno, Peru",
+      "orcid": "0000-0002-0676-0989"
+    }
+  ],
+  "keywords": [
+    "researcher certification",
+    "research evaluation",
+    "ranking systems",
+    "RENACYT",
+    "scientometrics",
+    "gender inequality"
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng"
+}

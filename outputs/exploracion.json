@@ -1,0 +1,349 @@
+{
+  "n_personas": 10455,
+  "n_con_nivel": 10366,
+  "reglamentos": {
+    "Reglamento_2021": 8045,
+    "Reglamento_2018": 2410
+  },
+  "condicion": {
+    "Activo": 8035,
+    "VIGENCIA VENCIDA": 2172,
+    "No registra": 232,
+    "No Activo": 9,
+    "Excluido": 7
+  },
+  "niveles_disponibles": [
+    "Distinguido",
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII"
+  ],
+  "por_nivel": [
+    {
+      "nivel": "Distinguido",
+      "orden": 0.0,
+      "n": 157,
+      "obras_mediana": 40.0,
+      "obras_p90": 148.4,
+      "citas_mediana": 524.0,
+      "citas_obra_mediana": 7.375,
+      "edad_carrera_mediana": 10.0,
+      "lag_calif_mediana": 7.0,
+      "pct_mujeres": 15.3,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2023.0
+    },
+    {
+      "nivel": "I",
+      "orden": 1.0,
+      "n": 134,
+      "obras_mediana": 28.0,
+      "obras_p90": 101.90000000000002,
+      "citas_mediana": 274.5,
+      "citas_obra_mediana": 7.798387096774194,
+      "edad_carrera_mediana": 10.0,
+      "lag_calif_mediana": 4.0,
+      "pct_mujeres": 22.4,
+      "edad_modal": "50 a 59",
+      "anio_calif_mediana": 2023.0
+    },
+    {
+      "nivel": "II",
+      "orden": 2.0,
+      "n": 404,
+      "obras_mediana": 26.0,
+      "obras_p90": 76.69999999999999,
+      "citas_mediana": 206.0,
+      "citas_obra_mediana": 6.6923076923076925,
+      "edad_carrera_mediana": 10.0,
+      "lag_calif_mediana": 6.0,
+      "pct_mujeres": 23.0,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2023.0
+    },
+    {
+      "nivel": "III",
+      "orden": 3.0,
+      "n": 739,
+      "obras_mediana": 15.0,
+      "obras_p90": 51.0,
+      "citas_mediana": 78.0,
+      "citas_obra_mediana": 4.625,
+      "edad_carrera_mediana": 10.0,
+      "lag_calif_mediana": 4.0,
+      "pct_mujeres": 28.3,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2022.0
+    },
+    {
+      "nivel": "IV",
+      "orden": 4.0,
+      "n": 920,
+      "obras_mediana": 15.0,
+      "obras_p90": 39.0,
+      "citas_mediana": 65.5,
+      "citas_obra_mediana": 3.848076923076923,
+      "edad_carrera_mediana": 9.0,
+      "lag_calif_mediana": 5.0,
+      "pct_mujeres": 30.8,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2023.0
+    },
+    {
+      "nivel": "V",
+      "orden": 5.0,
+      "n": 1941,
+      "obras_mediana": 11.0,
+      "obras_p90": 30.0,
+      "citas_mediana": 42.0,
+      "citas_obra_mediana": 3.3,
+      "edad_carrera_mediana": 9.0,
+      "lag_calif_mediana": 4.0,
+      "pct_mujeres": 32.8,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2022.0
+    },
+    {
+      "nivel": "VI",
+      "orden": 6.0,
+      "n": 2188,
+      "obras_mediana": 9.0,
+      "obras_p90": 23.0,
+      "citas_mediana": 23.0,
+      "citas_obra_mediana": 2.2857142857142856,
+      "edad_carrera_mediana": 8.0,
+      "lag_calif_mediana": 4.0,
+      "pct_mujeres": 35.6,
+      "edad_modal": "40 a 49",
+      "anio_calif_mediana": 2023.0
+    },
+    {
+      "nivel": "VII",
+      "orden": 7.0,
+      "n": 3883,
+      "obras_mediana": 6.0,
+      "obras_p90": 17.0,
+      "citas_mediana": 16.0,
+      "citas_obra_mediana": 2.5,
+      "edad_carrera_mediana": 6.0,
+      "lag_calif_mediana": 3.0,
+      "pct_mujeres": 35.5,
+      "edad_modal": "30 a 39",
+      "anio_calif_mediana": 2023.0
+    }
+  ],
+  "correlaciones_nivel_orden": {
+    "n_obras": {
+      "rho": -0.326,
+      "p": 2.4786706114667356e-255,
+      "n": 10366
+    },
+    "citas": {
+      "rho": -0.319,
+      "p": 1.528345815658492e-243,
+      "n": 10366
+    },
+    "citas_por_obra": {
+      "rho": -0.172,
+      "p": 1.8451764002347977e-69,
+      "n": 10366
+    },
+    "edad_carrera": {
+      "rho": -0.283,
+      "p": 5.344821143147576e-190,
+      "n": 10366
+    },
+    "lag_calificacion": {
+      "rho": -0.229,
+      "p": 6.28710154272244e-123,
+      "n": 10366
+    }
+  },
+  "parciales": {
+    "nivel_vs_obras_ctrl_carrera": {
+      "rho": -0.253,
+      "p": 1.696498133740873e-151,
+      "n": 10366
+    },
+    "nivel_vs_citasobra_ctrl_carrera": {
+      "rho": -0.097,
+      "p": 5.313862951046949e-23,
+      "n": 10366
+    },
+    "nivel_vs_carrera_ctrl_obras": {
+      "rho": -0.192,
+      "p": 4.327471116196482e-87,
+      "n": 10366
+    }
+  },
+  "solapamiento_adyacente": [
+    {
+      "nivel_alto": "Distinguido",
+      "nivel_bajo": "I",
+      "auc_obras": 0.581,
+      "p": 0.017865841359947125,
+      "n_alto": 157,
+      "n_bajo": 134
+    },
+    {
+      "nivel_alto": "I",
+      "nivel_bajo": "II",
+      "auc_obras": 0.531,
+      "p": 0.28850837977542765,
+      "n_alto": 134,
+      "n_bajo": 404
+    },
+    {
+      "nivel_alto": "II",
+      "nivel_bajo": "III",
+      "auc_obras": 0.606,
+      "p": 3.2854294028962717e-09,
+      "n_alto": 404,
+      "n_bajo": 739
+    },
+    {
+      "nivel_alto": "III",
+      "nivel_bajo": "IV",
+      "auc_obras": 0.508,
+      "p": 0.56310690110443,
+      "n_alto": 739,
+      "n_bajo": 920
+    },
+    {
+      "nivel_alto": "IV",
+      "nivel_bajo": "V",
+      "auc_obras": 0.568,
+      "p": 4.793867165691287e-09,
+      "n_alto": 920,
+      "n_bajo": 1941
+    },
+    {
+      "nivel_alto": "V",
+      "nivel_bajo": "VI",
+      "auc_obras": 0.566,
+      "p": 2.7464816708716037e-13,
+      "n_alto": 1941,
+      "n_bajo": 2188
+    },
+    {
+      "nivel_alto": "VI",
+      "nivel_bajo": "VII",
+      "auc_obras": 0.615,
+      "p": 4.035061929449971e-50,
+      "n_alto": 2188,
+      "n_bajo": 3883
+    }
+  ],
+  "auc_extremos_obras": {
+    "niveles": [
+      "Distinguido",
+      "VII"
+    ],
+    "auc": 0.798
+  },
+  "pct_entrada_supera_mediana_top": 1.1,
+  "pct_top_bajo_mediana_entrada": 18.5,
+  "por_campo": [
+    {
+      "campo": "Immunology and Microbiology",
+      "n": 124,
+      "rho_nivel_obras": -0.509,
+      "p": 1.6384245204495856e-09
+    },
+    {
+      "campo": "Psychology",
+      "n": 360,
+      "rho_nivel_obras": -0.436,
+      "p": 3.577834833174732e-18
+    },
+    {
+      "campo": "Earth and Planetary Sciences",
+      "n": 210,
+      "rho_nivel_obras": -0.417,
+      "p": 3.045133802394286e-10
+    },
+    {
+      "campo": "Health Professions",
+      "n": 360,
+      "rho_nivel_obras": -0.397,
+      "p": 4.709352278018228e-15
+    },
+    {
+      "campo": "Environmental Science",
+      "n": 997,
+      "rho_nivel_obras": -0.389,
+      "p": 1.8283550317029539e-37
+    },
+    {
+      "campo": "Agricultural and Biological Sciences",
+      "n": 1596,
+      "rho_nivel_obras": -0.353,
+      "p": 6.087769979153963e-48
+    },
+    {
+      "campo": "Medicine",
+      "n": 1738,
+      "rho_nivel_obras": -0.348,
+      "p": 1.6765853329562672e-50
+    },
+    {
+      "campo": "Computer Science",
+      "n": 837,
+      "rho_nivel_obras": -0.341,
+      "p": 2.788917468479727e-24
+    },
+    {
+      "campo": "Dentistry",
+      "n": 180,
+      "rho_nivel_obras": -0.323,
+      "p": 9.993933358661407e-06
+    },
+    {
+      "campo": "Business, Management and Accounting",
+      "n": 406,
+      "rho_nivel_obras": -0.304,
+      "p": 4.1864312067347826e-10
+    },
+    {
+      "campo": "Biochemistry, Genetics and Molecular Biology",
+      "n": 393,
+      "rho_nivel_obras": -0.289,
+      "p": 5.509398157303771e-09
+    },
+    {
+      "campo": "Social Sciences",
+      "n": 1345,
+      "rho_nivel_obras": -0.27,
+      "p": 5.614932254464125e-24
+    },
+    {
+      "campo": "Engineering",
+      "n": 672,
+      "rho_nivel_obras": -0.269,
+      "p": 1.4316496499280899e-12
+    },
+    {
+      "campo": "Economics, Econometrics and Finance",
+      "n": 424,
+      "rho_nivel_obras": -0.265,
+      "p": 2.880210553373053e-08
+    },
+    {
+      "campo": "Arts and Humanities",
+      "n": 194,
+      "rho_nivel_obras": -0.201,
+      "p": 0.0050276741340420286
+    },
+    {
+      "campo": "Materials Science",
+      "n": 103,
+      "rho_nivel_obras": -0.164,
+      "p": 0.09802210533232573
+    }
+  ],
+  "pct_mujeres_global": 33.1
+}
