@@ -1,5 +1,7 @@
 # The certification ladder — replication package
 
+[![DOI](https://zenodo.org/badge/1354238028.svg)](https://doi.org/10.5281/zenodo.22304793)
+
 Replication package for *The certification ladder: what researcher-ranking
 levels measure, and what they miss* (submitted to Research Evaluation).
 
