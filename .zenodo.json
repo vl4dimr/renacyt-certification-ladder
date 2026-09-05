@@ -14,9 +14,14 @@
       "orcid": "0009-0006-1534-0210"
     },
     {
-      "name": "Chaina Apaza, Phany",
+      "name": "Chaiña Apaza, Phany",
       "affiliation": "Universidad Nacional del Altiplano, Puno, Peru",
       "orcid": "0009-0009-1700-2196"
+    },
+    {
+      "name": "Cayllahua Tacca, Ruth Yashira",
+      "affiliation": "Universidad Nacional del Altiplano, Puno, Peru",
+      "orcid": "0009-0008-1328-511X"
     }
   ],
   "keywords": [
@@ -28,6 +33,6 @@
     "gender inequality"
   ],
   "license": "cc-by-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "eng"
 }
